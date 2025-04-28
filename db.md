@@ -1,0 +1,19 @@
+- ID: PK-unique-NOTNULL-UNIQUE-AUTO_INCREMENT
+- n.telaio: CHAR (17)-UNIQUE-NOTNULL
+- cat: VARCHAR (255)-NONULL
+- marca: VARCHAR (255)-NOTNULL
+- modello: VARCHAR (255)-NOTNULL
+- data_vendita: DATE (YYYY-MM-GG)
+- anno_immatricolazione: YEAR (yyyy)-NOTNULL
+- cambio_automatico: CHAR(1) -NOTNULL
+- cambio_manuale:  CHAR(1) -NOTNULL
+- condizione: CHAR(1) -NONTULL
+- kilometraggio: INT - NULL-NOTNULL
+- trazione: VARCHAR(anteriore, posteriore, integrale) - NOTNULL
+- note: TEXT (max.65535 caratteri) 
+- guida_destra: CHAR(1) -NOTNULL 
+- guida_sinistra: CHAR(1) -NOTNULL
+- prezzo: INT -NOTNULL
+- potenza: INT -NOTNULL
+- colore: VARCHAR -NOTNULL
+- carburante: VARCHAR (benzina, diesel, metano, gpl, elettrico, ibrido) -NOTNULL
